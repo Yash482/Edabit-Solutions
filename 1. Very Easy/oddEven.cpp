@@ -6,16 +6,12 @@
 #include <iostream>
 using namespace std;
 
-int isEvenOrOdd(int number)
+void isEvenOrOdd(int number)
 {
     if(number%2==0)
-    {
     	cout<<"even";
-	}
-	else 
-	{
-		cout<<"odd";
-	}
+    else 
+	cout<<"odd";
 }
 
 int main()
